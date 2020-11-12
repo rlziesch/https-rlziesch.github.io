@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+    <head>
+
+    
+        <title> Decide My Day </title>
+
+    
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javascript.js"></script>
+        <script src="https://kit.fontawesome.com/41f205b4ea.js" crossorigin="anonymous"></script>
+       
+
+
+    </head>
+
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i> </button>
+        
+
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="getstarted.html">Decide My Day</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>Hello Simplicity.</h1>
+              <p>Eliminate decision fatigue for good.</p>
+              <a href="#stepone"><button class="button2">Let's Start</button></a>
+            </div>
+          </div>
+
+
+
+          <div class="container">
+
+            <a id="stepone"><h2>Step One</h2></a>
+                
+                <div class="textbox">
+                <p> Your plan for the day will include three main areas where people often struggle with decision fatigue.</p>
+                </div>
+                
+                <div class="contentbox">
+                    <span style="font-size: 4vw">
+                        <i class="fas fa-tshirt"></i><br>
+                    </span>
+                    <h3>Outfit</h3>
+
+                    <p>For many people, choosing their outfit for the day can start the day with decision fatigue.</p>
+
+                </div>
+                <div class="contentbox">
+                    <span style="font-size: 4vw">
+                        <i class="fas fa-utensils"></i><br>
+                    </span>
+                    <h3>Meal</h3>
+
+                    <p>Gone are the days of deciding what to eat. Let us decide your date destination! </p>
+
+                </div>
+                <div class="contentbox">
+                    <span style="font-size: 4vw">
+                        <i class="fas fa-tasks"></i><br>
+                    </span>
+                    <h3>Task</h3>
+
+                    <p>If the task list keeps growing, let us help you decide where to start. Tackle one task at a time!</p>
+
+                </div>
+             
+                <br><br><br><br> 
+
+                <div class="container" style="background-color:#e2b624a8">
+          
+                    <div class="textbox">
+                      
+                        <p>Fill out the form below!</p>
+                        
+                        Three Options for An Outfit <br>
+                        <textarea id="outfitoptions" name="outfitoptions" placeholder="Ex; Food option 1, Food option 2, Food option 3..." style="height:100px"></textarea>
+
+                        <br><br>
+
+                        Five Options For Meals <br>
+                        <textarea id="mealoptions" name="mealoptions" placeholder="Ex; Meal option 1, Meal option 2, Meal option 3..." style="height:100px"></textarea>
+
+                        <br><br>
+
+                        Three Options For A Task <br>
+                        <textarea id="taskoptions" name="taskoptions" placeholder="Ex; Task option 1, Task option 2, Task option 3..." style="height:100px"></textarea>
+
+                        <br><br>
+
+                        <button onclick="tellStory()" id="decideday"> Decide My Day! </button>
+                       <br>
+                       <p>
+                       <span id="story"> </span>
+                       </p>
+                       
+
+
+                    </div>
+    
+                 </div>
+
+                <div class="footer">
+            
+                    <p style="font-size: 12px">© Decide My Day</p>
+                
+                 </div>
+          </div>
+
+         
+       
+
+        
+
+    </body>
+
+
+</html>
