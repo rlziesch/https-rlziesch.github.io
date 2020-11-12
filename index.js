@@ -66,6 +66,7 @@ function myFunction() {
 
 }
 
+/* prompting user to download web app for homescreen */
 
 
 let deferredPrompt;
