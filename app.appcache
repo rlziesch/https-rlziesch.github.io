@@ -1,0 +1,37 @@
+CACHE MANIFEST
+
+# v1.0 : 11-01-2020
+
+CACHE:
+
+# pages
+
+index.html
+getstarted.html
+contact.html
+about.html
+
+# styles & scripts
+
+style.css
+index.js
+
+# images
+
+NETWORK:
+login.php
+
+FALLBACK:
+
+
+
+{
+    "name": "Decide My Day",
+    "short_name": "D.M.D.",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "theme_color": "#ffae42"
+}
