@@ -83,6 +83,8 @@ deferred Prompt = e;
 
 btnAdd.style.display = 'block';
 
+}
+
 btnAdd.addEventListener('click', (e) => {
     // hide user interface showing A2HS button
 
@@ -93,6 +95,8 @@ btnAdd.style.display = 'none';
 deferredPrompt.prompt();
 
 //wait for user to respond
+
+}
 
 deferredPrompt.userChoice
 
@@ -108,10 +112,4 @@ if (choiceResult.outcome === 'accepted' {
 
 deferredPrompt = null;
 
-}))
-
 })
-
-});
-
-}
