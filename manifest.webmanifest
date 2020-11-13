@@ -1,0 +1,14 @@
+{
+    "short_name": "D.M.D.",
+    "name": "Decide My Day",
+    
+    "icons": [
+        {
+            "src": "/icon.jpg",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "display": "standalone",
+    "theme_color": "#E3B625"
+}
