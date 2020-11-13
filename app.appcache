@@ -25,13 +25,3 @@ FALLBACK:
 
 
 
-{
-    "name": "Decide My Day",
-    "short_name": "D.M.D.",
-    "start_url": "/index.html",
-    "scope": ".",
-    "display": "standalone",
-    "lang": "en-US",
-    "orientation": "portrait-primary",
-    "theme_color": "#ffae42"
-}
