@@ -75,8 +75,7 @@ function myFunction() {
 
 
 /* prompting user to download web app for homescreen */
-
-
+/*
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt' (e) => {
@@ -123,3 +122,4 @@ if (choiceResult.outcome === 'accepted' {
 deferredPrompt = null;
 
 })
+*/
