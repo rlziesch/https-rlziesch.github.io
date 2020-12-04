@@ -39,76 +39,42 @@
 
 
 
-          <div class="container">
-
-            <a id="stepone"><h2>Step One</h2></a>
-                
-                <div class="textbox">
-                <p> Your plan for the day will include three main areas where people often struggle with decision fatigue.</p>
-                </div>
-                
-                <div class="contentbox">
-                    <span style="font-size: 4vw">
-                        <i class="fas fa-tshirt"></i><br>
-                    </span>
-                    <h3>Outfit</h3>
-
-                    <p>For many people, choosing their outfit for the day can start the day with decision fatigue.</p>
-
-                </div>
-                <div class="contentbox">
-                    <span style="font-size: 4vw">
-                        <i class="fas fa-utensils"></i><br>
-                    </span>
-                    <h3>Meal</h3>
-
-                    <p>Gone are the days of deciding what to eat. Let us decide your date destination! </p>
-
-                </div>
-                <div class="contentbox">
-                    <span style="font-size: 4vw">
-                        <i class="fas fa-tasks"></i><br>
-                    </span>
-                    <h3>Task</h3>
-
-                    <p>If the task list keeps growing, let us help you decide where to start. Tackle one task at a time!</p>
-
-                </div>
-             
-                <br><br><br><br> 
-
-                <div class="container" style="background-color:#e2b624a8">
+          <div class="container" style="background-color:#e2b624a8">
           
-                    <div class="textbox">
-                      
-                        <p>Fill out the form below!</p>
-                        
-                        Three Options for An Outfit <br>
-                        <textarea id="outfitoptions" name="outfitoptions" placeholder="Ex; Food option 1, Food option 2, Food option 3..." style="height:100px"></textarea>
+            <div class="textbox">
+                                  
+            <p>Fill out the form below!</p>
+                                    
+            Three Options for An Outfit <br>
+            
+            <textarea id="outfitoptions" placeholder="Ex; Food option 1, Food option 2, Food option 3... Press enter after each entry!" style="height:100px"></textarea>
+            
+            <br><br>
+            
+            Five Options For Meals <br>
+            
+              <textarea id="mealoptions" name="mealoptions" placeholder="Ex; Meal option 1 Meal option 2, Meal option 3... Press enter after each entry!" style="height:100px"></textarea>
+            
+            <br><br>
+            
+            Three Options For A Task <br>
+            
+             <textarea id="taskoptions" name="taskoptions" placeholder="Ex; Task option 1, Task option 2, Task option 3... Press enter after each entry!" style="height:100px"></textarea>
+            
+            <br><br>
+            
+            <button onclick="turnArray()"> Decide My Day! </button>
+            
+             <br>
+              
+              <p id="result"></p>
+                                   
+            <br>
+              
+              
+             </div>
 
-                        <br><br>
-
-                        Five Options For Meals <br>
-                        <textarea id="mealoptions" name="mealoptions" placeholder="Ex; Meal option 1, Meal option 2, Meal option 3..." style="height:100px"></textarea>
-
-                        <br><br>
-
-                        Three Options For A Task <br>
-                        <textarea id="taskoptions" name="taskoptions" placeholder="Ex; Task option 1, Task option 2, Task option 3..." style="height:100px"></textarea>
-
-                        <br><br>
-
-                        <button onclick="tellStory()" id="decideday"> Decide My Day! </button>
-                       <br>
-                       <p>
-                       <span id="story"> </span>
-                       </p>
-                       
-
-
-                    </div>
-    
-                 </div>
+        </div>
 
                 <div class="footer">
             
