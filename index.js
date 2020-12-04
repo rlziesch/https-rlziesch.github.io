@@ -34,37 +34,47 @@ function myFunction() {
 
   /* Decide My Day Script */
 
-  function tellStory(){
+  function turnArray() {
+    //assign value of textarea to mytext
+    var outfitText = document.getElementById("outfitoptions").value;
 
-    /* turn into array */
+    //split mytext by nextline = "\n" 
+    var outfitArray = outfitText.split("\n");
 
-    var outfitoptions = document.getElementById("outfitoptions").value;
-    var sentenceArray1 = outfitoptions.split('\n');
+/* add second */
 
-    var mealoptions = document.getElementById("mealoptions").value;
-    var sentenceArray2 = mealoptions.split('\n');
+    var mealsText = document.getElementById("mealoptions").value;
 
-    var taskoptions = document.getElementById("taskoptions").value;
-    var sentenceArray3 = taskoptions.split('\n');
+    var mealsArray = mealsText.split("\n");
+  
+  /* add third */
+  
+    var tasksText = document.getElementById("taskoptions").value;
 
-/* need variables for input */
+    var tasksArray = tasksText.split("\n");
 
-    let outfit = sentenceArray1[Math.floor(Math.random() * myArray.length)];
-    let meal = sentenceArray2[Math.floor(Math.random() * myArray.length)];
-    let task = sentenceArray3[Math.floor(Math.random() * myArray.length)];
+/* start picking random */
+  
+const randomOutfit = outfitArray[Math.floor(Math.random() * outfitArray.length)];
 
-    /* input */
-
-    var story = " Today you will wear your " + outfit + " and head into the kitchen to plan your tasty meal for the day. ";
-    story += " Surprise! You're having " + meal ;
-    story += " You may have a lot on your to-do list. Today let's focus on getting one thing done: " + task + ". <br / > <br />";
-
-/* output */
-
-    output.innerHTML = story;
-
-
+const randomMeal = mealsArray[Math.floor(Math.random() * mealsArray.length)];
+  
+const randomTask = tasksArray[Math.floor(Math.random() * tasksArray.length)];
+  
+ 
+/* get result */
+  
+  document.getElementById("result").innerHTML = 'Today you will wear ' + randomOutfit + '. ' + 'Plan on eating ' + randomMeal + ' later.' + ' Your assigned task to accomplish is ' + randomTask + ' so make sure you plan accordingly!';
 }
+
+/* end decide my day script */
+
+
+
+
+
+
+
 
 /* prompting user to download web app for homescreen */
 
