@@ -31,3 +31,14 @@ function turnArray() {
 
   document.getElementById("result").innerHTML = 'Today you will wear ' + randomOutfit + '. ' + 'Plan on eating ' + randomMeal + ' later.' + ' Your assigned task to accomplish is ' + randomTask + ' so make sure you plan accordingly!';
 }
+
+/* responsive navigation */
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
