@@ -4,7 +4,7 @@
     "name": "Decide My Day",
     "short_name": "Decide My Day",
     "scope": "/https-rlziesch.github.io/index.html",
-    "display": "browser",
+    "display": "fullscreen",
     "start_url": "https://rlziesch.github.io/https-rlziesch.github.io/index.html",
     "background_color": "#000000",
     "theme_color": "transparent",
